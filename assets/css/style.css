@@ -1,0 +1,13 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    min-height: 100vh;
+}
+
+.books-container{
+    display: flex;
+}
+
