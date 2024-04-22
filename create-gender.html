@@ -39,25 +39,23 @@
             </div>
         </nav>
 
+
         <div class="container">
             <div class="row justify-content-center">
+                <form class="w-50 p-4 bg-light mt-3">   
+                    <h1>Cadastre um gênero</h1>
 
-                <form class="w-50 p-4 mt-3 bg-light">   
-                    <h1>Cadastre-se</h1>
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Nome do gênero</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="1984" aria-describedby="emailHelp">
+                    </div>   
 
-                    <div class="mb-3">
-                        <label for="exampleInputEmail1" class="form-label">Nome completo</label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="João da Silva" aria-describedby="emailHelp">
-                    </div>          
-                    <div class="mb-3">
-                        <label for="exampleInputEmail1" class="form-label">Email</label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="joaodasilva@gmail.com" aria-describedby="emailHelp">
-                    </div>
-                    <div class="mb-3">
-                        <label for="exampleInputPassword1" class="form-label">Senha</label>
-                        <input type="password" class="form-control" id="exampleInputPassword1">
-                    </div>
-                    <button type="submit" class="btn btn-primary">Entrar</button>
+                    <div class="form-floating mb-3">
+                        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"  style="height: 200px; resize: none;"></textarea>
+                        <label for="floatingTextarea2">Escreva uma descrição para o gênero</label>
+                    </div>                    
+
+                    <button type="submit" class="btn btn-primary">Salvar</button>
                 </form>
             </div>
         </div>

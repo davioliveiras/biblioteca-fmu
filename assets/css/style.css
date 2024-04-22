@@ -11,3 +11,27 @@ body{
     display: flex;
 }
 
+#photo-preview-input{
+    display: flex;
+    border: dashed 1px grey;
+    font-size: 40px;
+    color: grey;
+    height: 250px;
+    width: 200px;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.myPointer{
+    cursor: pointer;
+}
+
+#photo-preview-show{
+    display: none;
+    height: 250px;
+}
+
+#inputGroupFile01{
+    display: none;
+}
